@@ -35,3 +35,18 @@ import matplotlib.pyplot as plt
 
 
 
+
+# ======== การใส่ข้อความต่างๆ
+
+# plt.style.use('seaborn-v0_8')
+
+# y=[15,12,19,13,16,17,12]
+# x=['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
+
+# plt.title('Weekly Sales', color = 'blue', alpha=0.8)
+# plt.ylabel('Amount', color='m',fontsize=14)
+# plt.xlabel('Weekday',c='g',fontsize=14)
+# plt.yticks(c='r')
+# plt.xticks(rotation='vertical',c='r',fontsize=13)
+# plt.plot(x, y)
+# plt.show()
