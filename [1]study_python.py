@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 
+import matplotlib.pyplot as plt
+
 # การใช้ DataFrame ของ Pandas
 
 # pd_data = [ [10,50,80,567],
@@ -34,4 +36,4 @@ import pandas as pd
 # p1   110   210   310
 # p2   111   211   311
 # p3   112   212   312
-# p4   113   213   313
+# p4   113   213   3
