@@ -50,3 +50,17 @@ import matplotlib.pyplot as plt
 # plt.xticks(rotation='vertical',c='r',fontsize=13)
 # plt.plot(x, y)
 # plt.show()
+
+
+# ================= LEGEND
+
+x = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
+y = [120,100,150,200,300,100,140]
+
+plt.plot(x,y,ls=':',c='r',label='G1')
+
+y = [80,100,110,105,240,200,170]
+plt.plot(x,y,ls='--',c='b',label='G2')
+
+plt.legend(loc='best')
+plt.show()
